@@ -1,7 +1,7 @@
 ![DSpico-banner](dspico-artwork-design/others/banner2.png)
 
-# DSpico-hardware
-## 🗺️ Map 
+# DSpico Hardware
+## 🗺️ Contents
 - [ℹ Introduction](#ℹ-introduction)
 - [❔ About this repository](#-about-this-repository).
 - [🎮 DSpico PCB](#-dspico-pcb)
@@ -27,24 +27,23 @@ DSpico is the world's first open-source DS(i) flashcart, created by the LNH team
 
 ### Features
 - RP2040 microcontroller
-- 16 Mb flash memory
+- 16 Mbit flash memory
 - Micro USB port
-- MicroSD slot
+- Micro SD slot
 - Development port
 - Two LEDs (red and blue)
-- Read speed (sequential): up to 6MB/s
-- Power comsuption: 57mW
 - Dual power support: can be powered by USB and DS simultaneously (by ORing circuit)
-- Compatible with pico launcher
+
+With the [DSpico Firmware](https://github.com/LNH-team/dspico-firmware):
+- Sequential SD read speed: up to 6MB/s
+- Power consuption: ~57 mW
 - Compatible with DSi mode
+- Compatible with [Pico Loader](https://github.com/LNH-team/pico-loader) and [Pico Launcher](https://github.com/LNH-team/pico-launcher)
 
-  
 ## ❔ About this repository
-This repository contains the necessary files for the development of hardware for DSpico, including a PCB, CAD design of the shell, stickers for cartridge and box art.
-
+This repository contains the necessary files for the hardware of the DSpico, including a PCB, CAD design of the shell, stickers for cartridge and box art.
 
 ## 🎮 DSpico PCB
-
 The PCB design is located in the [`dspico-pcb`](dspico-pcb) folder. This folder contains all the necessary files for PCB fabrication, as well as the design files created using the electronic design software Altium Designer.
 
 ![DSpico-top](dspico-artwork-design/others/dspico-1-3-real-hw-top-res.jpg)
@@ -109,13 +108,11 @@ The stickers and box art design are located in the [`dspico-artwork-design`](dsp
 
 ## 📦 Instructions
 ### 1️⃣ Build
-1. Manufacture the PCB and Shell
-   
-Start by producing both the PCB and the shell. Go to the respective sections, [`dspico-pcb`](dspico-pcb) and [`dspico-shell`](dspico-shell), and read the README file in each to understand how to create these parts.
+1. **Manufacture the PCB and Shell**<br>
+    Start by producing both the PCB and the shell. Go to the respective sections, [`dspico-pcb`](dspico-pcb) and [`dspico-shell`](dspico-shell), and read the README file in each to understand how to create these parts.
 
-2. Optional: Customize with a Sticker and Box Art
-
-If desired, you can print a sticker from the stickers section and add box art [`dspico-artwork-design`](dspico-artwork-design) for storing your DSpico (for example, by reusing an existing box).
+2. **Optional: Customize with a Sticker and Box Art**<br>
+    If desired, you can print a sticker from the stickers section and add box art [`dspico-artwork-design`](dspico-artwork-design) for storing your DSpico (for example, by reusing an existing box).
 
 ### 2️⃣ Assembly
 Once you have both the PCB and the shell manufactured, the next step is to assemble them. Follow these steps:
@@ -129,18 +126,19 @@ Make sure everything fits, and your DSpico will be ready for the next steps!
 
 ### 3️⃣ Flash DSpico
 > You will need a micro USB cable
-1. Go to the pico-firmware repository and build the firmware.
+1. Go to the [dspico-firmware](https://github.com/LNH-team/dspico-firmware) repository and build the firmware. See the firmware readme for the bootloader options.
 2. Connect the micro USB cable to the USB port on the DSpico.
 3. Connect the other end of the micro USB cable to your PC. The PC should recognize the DSpico as a new storage device.
-4. Copy the generated .uf2 firmware file from the dspico-firmware repository to the detected storage unit.
+4. Copy the generated .uf2 firmware file from the [dspico-firmware](https://github.com/LNH-team/dspico-firmware) repository to the detected storage unit.
 5. Once the transfer is complete, your DSpico will be successfully flashed!
 
 ### 4️⃣ Prepare a micro SD card
-> You will need an micro SD card (and a reader if your PC does not have it integrated). 
-1. Go to the pico-launcher repository and build the launcher.
-2. Connect your micro SD card to your PC
-3. Drag and drop launcher files
-4. Once the transfer is complete, connect your micro SD card to your DSpico and enjoy!
+> You will need a micro SD card (and a reader if your PC does not have it integrated).
+1. Go to the [pico-launcher](https://github.com/LNH-team/pico-launcher) repository and build Pico Launcher.
+2. Go to the [pico-loader](https://github.com/LNH-team/pico-loader) repository and build Pico Loader for the DSpico platform.
+3. Connect your micro SD card to your PC.
+4. Copy the Pico Loader and Pico Launcher files to your micro SD card. The Pico Launcher nds file should be named `_picoboot.nds`.
+5. Once the transfer is complete, insert your micro SD card in your DSpico and enjoy!
 
 ## 🛠 Development
 The DSpico features a development port for creating new applications and developing new peripherals. The available communication ports are as follows:
@@ -148,12 +146,13 @@ The DSpico features a development port for creating new applications and develop
 - I2C
 - x2 GPIO
 - SWD (debug)
+
 ![development port](dspico-artwork-design/others/dev-port-pinout.png)
 
 As for the power it can provide to peripherals, it is:
-- 3V3 (up to 50mA)
+- 3.3 V (up to 50 mA)
 
-The pitch between pins of this port is 2.54 mm so some connectors can be soldered (as long as it does not interfere with the rest of the DSpico mechanics). Such as male/female header.
+The pitch between pins of this port is 2.54 mm such that some connectors can be soldered (as long as it does not interfere with the rest of the DSpico mechanics). For example a male or female header.
 
 ![DSpico-dev-port](dspico-artwork-design/photos/dev-port-photo.png)
 ## 👥 Contributions
@@ -164,7 +163,8 @@ Contributions are welcome. If you wish to improve the PCB or shell designs, feel
 
 #### PCB:
  - [nitehack](https://www.github.com/nitehack)
- - [gericom](https://github.com/Gericom) (first dspico prototype)
+ - [Gericom](https://github.com/Gericom) (first DSpico prototype)
+
 #### Shell:
  - rcuevas
  - [nitehack](https://www.github.com/nitehack)
