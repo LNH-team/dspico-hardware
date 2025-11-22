@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\Nico\Documents\GitHub\dspico-hardware\dspico-pcb\design-files\Altium\DSpico_PCB.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=dspico_pcb-roundholes.txt|DrillLayers=gtl,gp1,g1,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=dspico_pcb-slotholes.txt|DrillLayers=gtl,gp1,g1,gbl

@@ -1,0 +1,10 @@
+DRC Rules Export File for PCB: C:\Users\Nico\Documents\GitHub\dspico-hardware\dspico-pcb\design-files\Altium\DSpico_PCB.PcbDoc
+RuleKind=MinimumAnnularRing|RuleName=Minimum IAR <=0.45mm|Scope=Board|Minimum=5.12
+RuleKind=MinimumAnnularRing|RuleName=Minimum IAR  >0.45mm|Scope=Board|Minimum=5.12
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=0.00
+RuleKind=Width|RuleName=Width-Power|Scope=Board|Minimum=7.87
+RuleKind=Width|RuleName=Width-GigaE|Scope=Board|Minimum=5.91
+RuleKind=Width|RuleName=Width-xTW|Scope=Board|Minimum=4.92
+RuleKind=Clearance|RuleName=Clearance-xPP-xTP-xTT|Scope=Board|Minimum=11.81
+RuleKind=Clearance|RuleName=Clearance poly Power Polygon|Scope=Board|Minimum=15.75
