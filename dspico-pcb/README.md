@@ -193,4 +193,5 @@ In the next window, carefully verify the components:
 Depending on the manufacturer, you may or may not be able to do this, but it will be very expensive. They usually ask for a minimum of 2 assembled PCBs. We recommend ordering 5 assembled PCBs.
 
 >- What happens if a component of JLCPCB is out of stock? 
+
 You must find an alternative or purchase that component from the JLCPCB library. See here for more information: https://jlcpcb.com/help/article/What-is-JLCPCB-Parts-Pre-order-Service 
