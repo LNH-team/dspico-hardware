@@ -1,0 +1,4 @@
+Record=SheetSymbol|SourceDocument=PROJECT_NAME Project.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=[XX] - DOC REVISION HISTORY.SchDoc|SymbolType=Normal|RawFileName=[XX] - DOC REVISION HISTORY.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=PROJECT_NAME Project.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=[02] - BLOCK DIAGRAM.SchDoc|SymbolType=Normal|RawFileName=[02] - BLOCK DIAGRAM.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=PROJECT_NAME Project.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=[01] - COVER PAGE.SchDoc|SymbolType=Normal|RawFileName=[01] - COVER PAGE.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=TopLevelDocument|FileName=PROJECT_NAME Project.SchDoc

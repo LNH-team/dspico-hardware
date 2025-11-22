@@ -1,0 +1,18 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: DSpico_PCB.PcbDoc   08/06/2024  18:01:04
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : L1 to L4
+ASCII RoundHoles File : DSpico_PCB-RoundHoles.TXT
+ASCII SlotHoles File : DSpico_PCB-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             68        PTH        0.00mm (0.00inch)
+T2      0.25mm (10mil)                                            Round             59        PTH        0.00mm (0.00inch)
+T3      0.6mm (24mil)                                             Round             2         PTH        0.00mm (0.00inch)
+T4      0.6mm (24mil)                                             Slot              4         PTH        0.00mm (0.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              133
+
+Total Processing Time (hh:mm:ss) : 00:00:00

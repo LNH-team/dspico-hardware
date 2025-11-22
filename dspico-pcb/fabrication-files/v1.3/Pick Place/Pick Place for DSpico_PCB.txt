@@ -1,0 +1,56 @@
+Altium Designer Pick and Place Locations
+C:\Users\Nico\Documents\GitHub\dspico-hardware\dspico-pcb\design-files\Altium\Project Outputs for DSpico\Pick Place\Pick Place for DSpico_PCB.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       25/06/24
+Time:       22:18
+Revision:   bc532aec63a87ce06371b78ac1b3c8357e716b0c
+Variant:    No variations
+Units used: mm
+
+Designator Center-X(mm) Center-Y(mm) Layer       Rotation 
+C1         4.0000       8.9000       TopLayer    180      
+C2         4.3000       13.4000      TopLayer    360      
+C3         14.9000      18.8600      TopLayer    0        
+C4         14.9000      20.0600      TopLayer    360      
+C5         14.9000      16.4600      TopLayer    0        
+C6         20.2000      12.2600      TopLayer    90       
+C7         25.2000      16.9600      TopLayer    270      
+C8         24.9000      19.5600      TopLayer    90       
+C9         23.5000      22.6600      TopLayer    270      
+C10        21.4000      12.2600      TopLayer    90       
+C11        19.9000      22.6600      TopLayer    270      
+C12        15.4000      11.3600      TopLayer    90       
+C13        17.6000      8.9600       TopLayer    360      
+C14        17.4000      25.2600      TopLayer    360      
+C15        17.4000      24.1600      TopLayer    360      
+D1         14.1000      29.9600      TopLayer    270      
+D2         14.1000      26.2000      TopLayer    270      
+J1         6.6000       22.5655      TopLayer    360      
+J2         20.5540      28.1891      TopLayer    90       
+J4         6.9700       30.4000      BottomLayer 180      
+Q1         11.9000      10.0000      TopLayer    90       
+Q2         8.5000       13.5000      TopLayer    0        
+Q3         8.5000       10.2000      TopLayer    180      
+R1         12.8833      13.5167      TopLayer    0        
+R2         11.2000      13.0000      TopLayer    90       
+R3         22.6000      12.2600      TopLayer    270      
+R4         4.3000       14.7000      TopLayer    180      
+R5         2.3000       14.1000      TopLayer    270      
+R6         1.1000       14.1000      TopLayer    270      
+R7         13.6000      14.7000      TopLayer    360      
+R8         11.4000      14.7000      TopLayer    360      
+R9         6.5162       14.6949      TopLayer    180      
+R10        22.3000      22.6600      TopLayer    270      
+R11        21.1000      22.6600      TopLayer    270      
+R12        14.6000      28.2600      TopLayer    360      
+R13        14.6000      24.5000      TopLayer    360      
+R14        23.1000      24.4600      TopLayer    180      
+R15        25.5000      14.6000      TopLayer    90       
+S1         25.4000      22.6600      TopLayer    270      
+U1         4.0000       11.1000      TopLayer    0        
+U2         20.3000      17.4600      TopLayer    0        
+U3         16.5000      22.4600      TopLayer    360      
+X1         17.6500      11.4100      TopLayer    270      
