@@ -124,21 +124,8 @@ Make sure everything fits, and your DSpico will be ready for the next steps!
 ![DSpico-assembly2](dspico-artwork-design/others/assa2.png)
 ![DSpico-assembly1](dspico-artwork-design/others/assa1.png)
 
-### 3️⃣ Flash DSpico
-> You will need a micro USB cable
-1. Go to the [dspico-firmware](https://github.com/LNH-team/dspico-firmware) repository and build the firmware. See the firmware readme for the bootloader options.
-2. Connect the micro USB cable to the USB port on the DSpico.
-3. Connect the other end of the micro USB cable to your PC. The PC should recognize the DSpico as a new storage device.
-4. Copy the generated .uf2 firmware file from the [dspico-firmware](https://github.com/LNH-team/dspico-firmware) repository to the detected storage unit.
-5. Once the transfer is complete, your DSpico will be successfully flashed!
-
-### 4️⃣ Prepare a micro SD card
-> You will need a micro SD card (and a reader if your PC does not have it integrated).
-1. Go to the [pico-launcher](https://github.com/LNH-team/pico-launcher) repository and build Pico Launcher.
-2. Go to the [pico-loader](https://github.com/LNH-team/pico-loader) repository and build Pico Loader for the DSpico platform.
-3. Connect your micro SD card to your PC.
-4. Copy the Pico Loader and Pico Launcher files to your micro SD card. The Pico Launcher nds file should be named `_picoboot.nds`.
-5. Once the transfer is complete, insert your micro SD card in your DSpico and enjoy!
+### 3️⃣ Setup the software
+Follow the [guide](https://github.com/LNH-team/dspico/blob/develop/GUIDE.md) for instructions on how to compile and setup the firmware and the contents of the micro SD card.
 
 ## 🛠 Development
 The DSpico features a development port for creating new applications and developing new peripherals. The available communication ports are as follows:
