@@ -108,7 +108,7 @@ If they contact you via email after placing the order about this note, attach th
    - Bake Components: **No**
    - Board Cleaning: **Yes**
    - Packaging: **Antistatic bubble film**.
-   - Solder Paste: **SN96.5%, Ag3.0%, Cu0.5%(260ºC)**
+   - Solder Paste: **High Temp.**
    - Add paste for unpopulated pad & step stencil opening: **No**
    - Function test: **No** 
    - Photo confirmation: **No**
