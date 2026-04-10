@@ -3,7 +3,7 @@
 This repository contains the files and configurations needed to fabricate and assemble the PCB for the **DSpico** flashcart. You can manufacture with the manufacturer you prefer. In this readme we include a guide on how to order it from [JLCPCB](https://cart.jlcpcb.com/quote?spm=Jlcpcb.Homepage.1006)
 
 ## 📂 Included Subfolders:
-- [`design-files`](./design-files): PCB schematic and layout of DSpico. (Altium format)
+- [`design-files`](./design-files): PCB schematic and layout of DSpico. (KiCad format)
 - [`fabrication-files`](./fabrication-files): Gerber files, Pick&Place files and BOM for PCB fabrication of DSpico.
    - 📂 `Gerber`: Gerber files required for fabrication.
    - 📂 `NC Drill`: Contains the NC Drill files required for PCB hole drilling.

@@ -44,12 +44,12 @@ With the [DSpico Firmware](https://github.com/LNH-team/dspico-firmware):
 This repository contains the necessary files for the hardware of the DSpico, including a PCB, CAD design of the shell, stickers for cartridge and box art.
 
 ## 🎮 DSpico PCB
-The PCB design is located in the [`dspico-pcb`](dspico-pcb) folder. This folder contains all the necessary files for PCB fabrication, as well as the design files created using the electronic design software Altium Designer.
+The PCB design is located in the [`dspico-pcb`](dspico-pcb) folder. This folder contains all the necessary files for PCB fabrication, as well as the design files created using the electronic design software.
 
 ![DSpico-top](dspico-artwork-design/others/dspico-1-3-real-hw-top-res.jpg)
 ![DSpico-bottom](dspico-artwork-design/others/dspico-1-3-real-hw-bottom-res.jpg)
 ### 📂 Included Subfolders:
-- [`design-files`](dspico-pcb/design-files): PCB schematic and layout of DSpico. (Altium format)
+- [`design-files`](dspico-pcb/design-files): PCB schematic and layout of DSpico. (KiCad format)
 - [`fabrication-files`](dspico-pcb/fabrication-files): Gerber files, Pick&Place files and BOM for PCB fabrication of DSpico.
 - [`docs`](dspico-pcb/docs): Documentation for manufacturing and assembling DSpico.
 
